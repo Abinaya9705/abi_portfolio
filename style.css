@@ -1,0 +1,108 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 2rem 0; /* Added padding for better spacing */
+    line-height: 1.6;
+    color: #fff;
+    background: url('bg.png') no-repeat center top; /* Adjusted position */
+    background-size: cover;
+    background-attachment: fixed; /* Ensures a parallax-like effect */
+  }
+  
+  header {
+    text-align: center;
+    padding: 2rem 0;
+    color: #fff;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  header span {
+    color: #ffcc00;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .box {
+    background: rgba(0, 0, 0, 0.5); /* Transparent black background */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 1.5rem;
+    margin: 2rem 0;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #ffcc00; /* Yellow heading color for contrast */
+    border-bottom: 2px solid #ffcc00;
+    display: inline-block;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 0.5rem;
+    color: #fff;
+  }
+  
+  a {
+    color: #ffcc00;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  #contact-form input, #contact-form textarea {
+    width: 90%;
+    max-width: 600px;
+    margin: 0.5rem auto;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: block;
+  }
+  
+  #contact-form button {
+    background: #ffcc00;
+    color: #000;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  #contact-form button:hover {
+    background: #e6b800;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    margin-top: 2rem;
+  }
+  
